@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="25dp"
+            android:text="Education - Public"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="59dp"
+            android:text="State schools (also known as public schools, though not in England) generally refer to primary or secondary schools mandated for or offered to all children without charge, funded in whole or in part by taxation. The term may also refer to public institutions of post-secondary education. For this activities every student has the right to the services of a school and for every employee in the school has equal right for every service." />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_below="@+id/t6"
+            android:layout_marginTop="24dp"
+            android:text="here corruption can be given from student to the teacher in order to get marks or from parent to head of institution in order to get the place of his children this one can be sexual or by money." />
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/page10.xml -->

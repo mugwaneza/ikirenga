@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="560dp" >
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_below="@+id/t6"
+            android:layout_marginTop="16dp"
+            android:text="Make sure that their give you the services that you required and at time easier without the additional costs ."
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="MINISTRIES"
+            android:textColor="#B0BF1A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="25dp"
+            android:text="what is a ministry ?" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:text="A ministry is a specialized organization responsible for a sector of government public administration, sometimes led by a minister or a senior public servant, that can have responsibility for one or more departments, agencies, bureaus, commissions or other smaller executive, advisory, managerial or administrative "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx2"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tx2"
+            android:textStyle="italic"
+            android:layout_marginTop="12dp"
+            android:text="It may occurs where one among ministry staff asks you to pay him/her to fix your problem,dont hesitate to report directly through noza to RGB" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="41dp"
+            android:linksClickable="true"
+             />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="18dp"
+            android:text="Do you wish to know Ministries we have in Rwand and ministers in charge ?"
+            android:textColor="#B0BF1A" />
+
+    </RelativeLayout>
+
+</ScrollView>
+<!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/page2.xml -->

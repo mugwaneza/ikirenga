@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="38dp"
+            android:textStyle="bold"
+            android:text="Beauty &amp; Wellness" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="58dp"
+            android:text="The quality present in a thing or person that gives intense pleasure or deep satisfaction to the mind, whether arising from sensory manifestations (as shape, color, sound, etc.), a meaningful design or pattern, or something else (as a personality in which high spiritual qualities are manifest)." />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/t6"
+            android:layout_marginTop="20dp"
+            android:text="Wellness is generally used to mean a healthy balance of the mind, body and spirit that results in an overall feeling of well-being." />
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/page12.xml -->

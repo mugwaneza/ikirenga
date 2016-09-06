@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="36dp"
+            android:textStyle="bold"
+            android:text="Arts ,culture&amp; Entertainment &quot;," />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="71dp"
+            android:text="Art is a diverse range of human activities and the products of those activities, usually involving imaginative or technical skill. In their most general form these activities include the production of works of art, the criticism of art, the study of the history of art, and the aesthetic dissemination of art." />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_below="@+id/t6"
+            android:layout_marginTop="14dp"
+            android:text="Entertainment is a form of activity that holds the attention and interest of an audience, or gives pleasure and delight. It can be an idea or a task, but is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience&apos;s attention." />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx2"
+            android:layout_below="@+id/tx2"
+            android:layout_marginTop="27dp"
+            android:text="For this one is necessary and crucial to inform every one about the corruption and how to give you a Good services as your right, like many activities here you can give the corruption trough the money in competition of Market in order to sell your design art and here is easy to get the job trough corruption and in the department of Entertainment for example for the Teams in sport you can give coach money and give you the opportunity to play without capacity or when the  competence is low comparing to others." />
+
+    </RelativeLayout>
+
+</ScrollView>

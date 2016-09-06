@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Editdatabase" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="20dp" >
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="48dp"
+            android:text="District in Rwanda is an area of a country , especially one characterized by a particular  activities where is made by Sector,Cell and finally by Agromeration"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_below="@+id/t6"
+            android:layout_marginTop="32dp"
+            android:text="Within districts in Rwanda they provide many services to citizens an foreigners ,these services are like Uburezi,Imisoro,....visit Gasobo website as an example you find services provideded by districts"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx2"
+            android:layout_below="@+id/tx2"
+            android:linksClickable="true"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="50dp"
+            android:text=" With services provided by districts and and sectors don&apos;t be tempted to corruption ,because it seems that often corruption resides here. In case use NOZA to report to RGB,also you have to report if you are not happy to the  services given to you." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="24dp"
+            android:text="In Rwanda we have 30 districts and  Each district is in turn divided into sectors. There are 416 Sectors.[1] This entire administrative structure is undergoing a process of decentralisation – devolving greater authority to local governments and municipalities – following an administrative reorganisation begun in 2002."
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="84dp"
+            android:layout_marginTop="46dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="DISTRICTS"
+            android:textColor="#B0BF1A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginRight="25dp"
+            android:linksClickable="true"
+            />
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/page1.xml -->

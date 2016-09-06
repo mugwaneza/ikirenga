@@ -1,0 +1,131 @@
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                    android:background="#fff"
+                android:fillViewport="true"
+                
+                >
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:paddingLeft="60dp"
+             android:paddingRight="60dp" >
+
+             <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginLeft="35dp"
+                 android:layout_marginTop="75dp"
+                 android:text="4.Political parties registration"
+                 android:textColor="#FF1493"/>
+
+             <ScrollView
+                 android:id="@+id/scrollView2"
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 android:layout_below="@+id/textView1"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="19dp"
+                 android:background="@drawable/shape"
+                 android:scrollbars="horizontal|vertical" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="80dp"
+                     android:layout_alignLeft="@+id/textView1"
+                     android:layout_below="@+id/textView1"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginLeft="20dp"
+                      >
+
+                     <TextView
+                         android:id="@+id/t6"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                          />
+                 </LinearLayout>
+             </ScrollView>
+
+             <TextView
+                 android:id="@+id/rates"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView1"
+                 android:layout_below="@+id/scrollView2"
+                 android:layout_marginTop="23dp"
+                 android:text="5.National Id"
+                 android:textColor="#fff" />
+
+             <ScrollView
+                 android:id="@+id/scrollView4"
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 android:layout_alignLeft="@+id/scrollView3"
+                 android:layout_below="@+id/textView5"
+                 android:layout_marginTop="18dp"
+                 android:background="@drawable/shape"
+                 android:scrollbars="horizontal|vertical" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="80dp"
+                     android:layout_alignRight="@+id/textView1"
+                     android:layout_below="@+id/textView5"
+                     android:layout_marginLeft="20dp"
+                     android:layout_marginTop="15dp" >
+
+                     <TextView
+                         android:id="@+id/t8"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         />
+                 </LinearLayout>
+             </ScrollView>
+
+             <ScrollView
+                 android:id="@+id/scrollView3"
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 android:layout_alignLeft="@+id/scrollView2"
+                 android:layout_below="@+id/rates"
+                 android:layout_marginTop="20dp"
+                 android:background="@drawable/shape"
+                 android:scrollbars="horizontal|vertical" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="80dp"
+                     android:layout_alignLeft="@+id/scrollView2"
+                     android:layout_below="@+id/rates"
+                     android:layout_marginLeft="20dp"
+                     android:layout_marginTop="15dp" >
+
+                     <TextView
+                         android:id="@+id/t7"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                          />
+                 </LinearLayout>
+             </ScrollView>
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/rates"
+                 android:layout_below="@+id/scrollView3"
+                 android:layout_marginTop="16dp"
+                 android:text="6.Passport"
+                 android:textColor="#fff" />
+
+         </RelativeLayout>
+ 
+</RelativeLayout>
+	

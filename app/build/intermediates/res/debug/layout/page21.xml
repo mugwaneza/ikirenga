@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="23dp"
+            android:text="Energy &amp; Environment "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="34dp"
+            android:text="In physics, energy is a property of objects which can be transferred to other objects or converted into different forms, but cannot be created or destroyed. The ability of a system to perform work is a common description. But, it is difficult to give a comprehensive definition of energy because of its many forms." />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/t6"
+            android:text="The natural environment encompasses all living and non-living things occurring naturally on Earth or some region thereof. It is an environment that encompasses the interaction of all living specie" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx2"
+            android:layout_below="@+id/tx2"
+            android:layout_marginTop="21dp"
+            android:text="On the environment side our government we have many laws which prevent the people to cut down tree and to destroy environment this many people do it after giving the money to the leaders in charge of it in sector," />
+
+        <TextView
+            android:id="@+id/ratingText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t7"
+            android:layout_below="@+id/t7"
+            android:text="We inform you that this is take like others corruption." />
+
+    </RelativeLayout>
+
+</ScrollView>
+<!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/page21.xml -->

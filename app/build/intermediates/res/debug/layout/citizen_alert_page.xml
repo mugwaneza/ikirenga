@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26ae20"
+    android:gravity="bottom"
+    android:paddingLeft="40dp"
+    android:paddingRight="45dp"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rgb"
+        android:layout_width="match_parent"
+        android:layout_height="492dp"
+        android:gravity="left" >
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:autoText="true"
+            android:drawableLeft="@drawable/gmarker4"
+            android:background="#fff"
+
+            android:textColor="#222222"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="49dp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#eceef1"
+            android:text="Institution"
+            android:layout_below="@+id/institution"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_alignEnd="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#eceef1"
+            android:text="Reason"
+            android:layout_below="@+id/reason"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#eceef1"
+            android:text="Type here your location"
+            android:layout_below="@+id/location"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/institution"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/spinnerback1"
+            android:spinnerMode="dialog"
+            android:text="hi"
+            android:textSize="20sp"
+            tools:listitem="@android:layout/simple_spinner_dropdown_item"
+            android:layout_below="@+id/textView1"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_alignRight="@+id/reason"
+            android:layout_alignEnd="@+id/reason" />
+
+        <EditText
+            android:id="@+id/idea"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint=" Describe service provider briefly"
+            android:inputType="textMultiLine"
+            android:maxLength="80"
+            android:textColor="#222222"
+            android:layout_below="@+id/t6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp" />
+
+        <Spinner
+            android:id="@+id/reason"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/spinnerback1"
+            android:ellipsize="marquee"
+            android:spinnerMode="dialog"
+            android:textSize="20sp"
+            tools:listitem="@android:layout/simple_spinner_dropdown_item"
+            android:layout_below="@+id/tx2"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="34dp"
+            android:layout_alignRight="@+id/idea"
+            android:layout_alignEnd="@+id/idea" />
+
+        <Button
+            android:id="@+id/alert"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape"
+            android:text="alert"
+            android:textColor="#056608"
+            android:layout_marginTop="27dp"
+            android:layout_below="@+id/idea"
+            android:layout_toLeftOf="@+id/t6"
+            android:layout_toStartOf="@+id/t6" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:text="Your message will be seen by RGB staff"
+            android:textColor="#eceef1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Fill below form then press alert button,"
+            android:textColor="#eceef1" />
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/citizen_alert_page.xml -->

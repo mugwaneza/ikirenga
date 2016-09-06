@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="#fff">
+
+<EditText
+    android:id="@+id/email"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="56dp"
+    android:background="#eceef1"
+    android:ems="10"
+    android:gravity="center"
+    android:hint="Names"
+    android:inputType="textAutoCorrect"
+    android:maxLines="1" />
+
+<EditText
+    android:id="@+id/editText2"
+    android:layout_width="200dp"
+    android:layout_height="110dp"
+    android:layout_alignLeft="@+id/email"
+    android:layout_below="@+id/email"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/shape"
+    android:gravity="center"
+    android:hint="your comment"
+    android:inputType="textMultiLine|textShortMessage"
+    android:maxLines="5" >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/editText2"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="18dp"
+    android:background="@drawable/shape"
+    android:onClick="insert"
+    android:text="comment"
+    android:textColor="#4B3621" />
+ 
+</RelativeLayout><!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/commentpage.xml -->

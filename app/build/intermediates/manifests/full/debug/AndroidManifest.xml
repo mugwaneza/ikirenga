@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.work"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+
+    <permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        android:protectionLevel="signature" />
+
+    <uses-permissionuses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        android:protectionLevel="signature" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        <activity
+            android:name="com.ikirenga.android.work.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ikirenga.android.work.Citizen_info_rgb" />
+        <activity android:name="com.ikirenga.android.work.Citizen_alert_page" />
+        //facebook
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+//pages for rating and comments
+        <activity android:name="com.ikirenga.android.work.commentpage" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.commentpage2" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.commentpage3" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.commentpage4" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.programsofgov" >
+        </activity>
+        // end of pages for rating and comments
+
+        //end facebook
+        // listing pages
+        <activity
+            android:name="com.ikirenga.android.work.page1"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page2" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page3" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page4" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page5" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page6" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page7" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page8" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page9" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page10" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page11" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page12" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page13" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page14" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page15" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page16" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page17" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page18" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page19" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page20" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page21" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page22" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page23" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page24" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page25" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page26" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page27" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page28" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page29" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page30" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page31" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page32" >
+        </activity>
+        <activity android:name="com.ikirenga.android.work.page33" >
+        </activity>
+        // end of pages
+    </application>
+
+</manifest>

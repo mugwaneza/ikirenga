@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="559dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="43dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Lawyers, Legal Experts &amp; Notaries " />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx2"
+            android:layout_below="@+id/tx2"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="21dp"
+            android:textSize="18sp"
+            android:text="Here is very easy to give someone a corruption in Tribunal court for example by using sign during the judgment and give the money for injustice in justice. Here a notaries can ask you the corruption in indirect way." />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="26dp"
+            android:text="A lawyer also called an &quot;advocate is someone who practices law. A lawyer has earned a degree in law, and has a license to practice law in a particular area. If people have any problem regarding the law, they can contact a lawyer for advice."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/t6"
+            android:text="A legal expert system is a domain-specific expert system that uses artificial intelligence to emulate the decision-making abilities of a human expert in the field of law."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ratingText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t7"
+            android:layout_below="@+id/t7"
+            android:textSize="18sp"
+            android:text="Every  people know that it is his right to get service for free." />
+
+    </RelativeLayout>
+
+</ScrollView>

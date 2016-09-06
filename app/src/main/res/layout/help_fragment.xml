@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="199dp"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="To send alert to RGB and to  leave your comment on the services provided by the Government of Rwanda ,you have to register or sign in if you have an account"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

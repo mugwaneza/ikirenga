@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Civil Associations &amp; Society " />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="62dp"
+            android:text="A civic association is a type of organization whose official goal is to improve neighborhoods through volunteer work by its members" />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_below="@+id/t6"
+            android:layout_marginTop="20dp"
+            android:text="Civil society is the &quot;aggregate of non-governmental organizations and institutions that manifest interests and will of citizens." />
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/page29.xml -->

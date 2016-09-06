@@ -1,0 +1,16 @@
+
+<resources>
+    <string name="app_name">IKIRENGA</string>
+    <string-array name="list_array">
+        <item>About</item>
+        <item>public institutions</item>
+        <item>Register</item>
+        <item>Sign in</item>
+        <item>Help</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">1619718765007530</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

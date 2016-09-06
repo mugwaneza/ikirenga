@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="29dp"
+            android:text="Construction and Real estate" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="44dp"
+            android:text="Construction is the process of creating and building infrastructure or a facility.[1] It differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser and construction is typically done on location for a known client." />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/t6"
+            android:layout_marginTop="20dp"
+            android:text="In this activity is very important as a country which is in development the building of the house, the highway, industry building, and stadium everywhere in the country to build any infrastructure according to the plan the authorization from government is required here many people give the money as corruption to the leaders in charge of construction and we urged you to avoid this and fight against it because is punished by the laws and in addition to remind you that you have the right to access it without any cost." />
+
+    </RelativeLayout>
+
+</ScrollView>

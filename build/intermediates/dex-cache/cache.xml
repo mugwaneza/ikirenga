@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\androidstudio\IKIRENGA\app\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="C:\androidstudio\IKIRENGA\app\build\intermediates\pre-dexed\debug\gson-2.2.2-3c1ab37b1cf9f743cde30d51d4dfdfbedea75a7f.jar" />
+    </item>
+    <item
+        jar="C:\androidstudio\IKIRENGA\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="C:\androidstudio\IKIRENGA\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-9d50f4e055e13cabb7bf1058287fc04d74ea3a80.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexis\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\androidstudio\IKIRENGA\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-7b73e971c2c0ed68a2a3c1477d2cd8c227fee445.jar" />
+    </item>
+    <item
+        jar="C:\androidstudio\IKIRENGA\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\androidstudio\IKIRENGA\app\build\intermediates\pre-dexed\debug\classes-0016d4cc06da403a1605b89bd974633e7b25f60c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexis\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="C:\androidstudio\IKIRENGA\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.1-a42770c652474400684614a4a7f0aae718187ea5.jar" />
+    </item>
+    <item
+        jar="C:\androidstudio\IKIRENGA\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\androidstudio\IKIRENGA\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-2f1721edc9c2835968ff6563837bca76c4f092a6.jar" />
+    </item>
+    <item
+        jar="C:\androidstudio\IKIRENGA\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\androidstudio\IKIRENGA\app\build\intermediates\pre-dexed\debug\classes-db951e59d1dcaeabd4426decc0b356f163f9f5f0.jar" />
+    </item>
+    <item
+        jar="C:\androidstudio\IKIRENGA\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.8.0\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="d0e35d5ac6f13bb42e295bba1940bfd7d6efcca1">
+        <dex dex="C:\androidstudio\IKIRENGA\app\build\intermediates\pre-dexed\debug\classes-38124464bcbc0c4dce9c5295f057463621c9ac8a.jar" />
+    </item>
+
+</items>

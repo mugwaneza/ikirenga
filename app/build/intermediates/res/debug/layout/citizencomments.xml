@@ -1,0 +1,181 @@
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:fillViewport="true"
+                
+                >
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             
+             android:paddingLeft="40dp"
+             android:paddingRight="40dp" 
+             >
+
+             <TextView
+                 android:id="@+id/tk"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="24dp"
+                 android:text="Services provided by Gov. of Rwanda"
+                 android:textColor="#FF1493" />
+
+             <TextView
+                 android:id="@+id/t6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="60dp"
+                 android:text="1.Land registration"
+                 android:textColor="#fff" />
+
+             <TextView
+                 android:id="@+id/tx2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/scrollView1"
+                 android:layout_marginTop="18dp"
+                 android:text="2.Driving license"
+                 android:textColor="#fff" />
+
+             <ScrollView
+                 android:id="@+id/scrollView2"
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 android:layout_alignLeft="@+id/scrollView1"
+                 android:layout_below="@+id/tx2"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="19dp"
+                 android:background="@drawable/shape"
+                 android:scrollbars="horizontal|vertical" >
+
+                 <LinearLayout
+                     android:id="@+id/linearLayout1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="80dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_below="@+id/r3"
+                     android:layout_marginLeft="20dp"
+                     android:layout_marginTop="15dp"
+                     android:layout_toRightOf="@+id/button2" >
+
+                     <TextView
+                         android:id="@+id/t7"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" />
+                 </LinearLayout>
+             </ScrollView>
+
+             <ScrollView
+                 android:id="@+id/scrollView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="100dp"
+                 android:layout_marginTop="19dp"
+                  android:layout_marginLeft="12dp"
+                 android:layout_marginRight="5dp"
+                 android:layout_alignLeft="@+id/t6"
+                 android:layout_alignParentRight="true"
+                 android:layout_below="@+id/t6"
+                 android:background="@drawable/shape"
+                 android:paddingTop="20dp"
+                 android:scrollbars="horizontal|vertical" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="80dp"
+                     android:layout_alignRight="@+id/r2"
+                     android:layout_alignTop="@+id/button1"
+                     android:layout_marginLeft="20dp"
+                     android:layout_marginTop="15dp" >
+
+                     <TextView
+                         android:id="@+id/textView1"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_alignLeft="@+id/r2"
+                         android:layout_centerVertical="true" />
+                 </LinearLayout>
+             </ScrollView>
+
+             <TextView
+                 android:id="@+id/t3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/tx2"
+                 android:layout_below="@+id/scrollView2"
+                 android:layout_marginTop="30dp"
+                 android:text="3.Invest in Rwanda"
+                 android:textColor="#fff" />
+
+             <ScrollView
+                 android:id="@+id/scrollView3"
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 android:layout_alignLeft="@+id/scrollView2"
+                 android:layout_below="@+id/t3"
+                 android:layout_marginTop="23dp"
+                 android:background="@drawable/shape"
+                 android:scrollbars="horizontal|vertical" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="80dp"
+                     android:layout_alignLeft="@+id/scrollView2"
+                     android:layout_alignRight="@+id/r3"
+                     android:layout_alignTop="@+id/button3"
+                     android:layout_marginLeft="20dp" >
+
+                     <TextView
+                         android:id="@+id/t4"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content" />
+                 </LinearLayout>
+             </ScrollView>
+
+             <TextView
+                 android:id="@+id/rates"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_above="@+id/scrollView1"
+                 android:layout_alignRight="@+id/scrollView1"
+                 android:layout_marginRight="40dp" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/rates"
+                 android:layout_alignBottom="@+id/rates"
+                 android:layout_marginRight="12dp"
+                 android:layout_toLeftOf="@+id/rates"
+                 android:text="Votes"
+                 android:textColor="#FF1493" />
+
+             <TextView
+                 android:id="@+id/rates2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_above="@+id/scrollView2"
+                 android:layout_alignRight="@+id/rates"
+                  />
+
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/rates2"
+                 android:layout_alignBottom="@+id/rates2"
+                 android:layout_alignRight="@+id/textView2"
+                 android:text="Votes"
+                 android:textColor="#FF1493" />
+
+         </RelativeLayout>
+ 
+</RelativeLayout>
+	<!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/citizencomments.xml -->

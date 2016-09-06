@@ -1,0 +1,280 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26ae20"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    android:fadeScrollbars="true"
+    android:scrollbarSize="2dip"
+     android:fitsSystemWindows="true"
+    android:scrollbars="horizontal|vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="41dp"
+            android:text="Services provided by government of Rwanda"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="70dp"
+            android:text="1.Lannd registration"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="26dp"
+            android:text="2.Driving license"
+            android:textColor="#fff" />
+
+        <RatingBar
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:numStars="5"
+             android:stepSize="1.0"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/t6" />
+
+        <RatingBar
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:numStars="5"
+              android:stepSize="1.0"
+            android:layout_alignLeft="@+id/r1"
+            android:layout_below="@+id/t7"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/t6"
+            android:layout_alignRight="@+id/r1"
+            android:layout_marginBottom="19dp"
+            android:layout_marginRight="41dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/t7"
+            android:layout_alignRight="@+id/r2"
+            android:layout_marginBottom="12dp"
+            android:textColor="#fff"
+            android:layout_marginRight="29dp"
+        />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t7"
+            android:layout_alignTop="@+id/r1"
+            android:layout_marginTop="38dp"
+            android:text="comment"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t7"
+            android:layout_alignTop="@+id/r2"
+            android:layout_marginTop="35dp"
+            android:text="comment"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/rates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="25dp"
+            android:text="3.Invest in Rwanda"
+            android:textColor="#fff" />
+
+        <RatingBar
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/r2"
+            android:layout_below="@+id/rates"
+            android:layout_marginTop="11dp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rates"
+            android:layout_alignRight="@+id/tx2"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="17dp"
+            android:text="4.Political parties registration"
+            android:textColor="#fff" />
+
+        <RatingBar
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/r3"
+            android:layout_below="@+id/textView5" />
+
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignRight="@+id/button3"
+            android:layout_alignTop="@+id/r4"
+            android:layout_marginTop="33dp"
+            android:text="comment"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/r4"
+            android:layout_below="@+id/button3"
+            android:layout_marginRight="16dp"
+            />
+
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="14dp"
+            android:text="5.National Id"
+            android:textColor="#fff" />
+
+        <RatingBar
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/t8" />
+
+        <Button
+            android:id="@+id/button5"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t8"
+            android:layout_alignRight="@+id/button4"
+            android:layout_alignTop="@+id/r5"
+            android:layout_marginTop="35dp"
+            android:text="comment"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/t8"
+            android:layout_alignRight="@+id/t4"
+           />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="12dp"
+            android:text="5.Passport"
+            android:textColor="#fff" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView7" />
+
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignParentBottom="true"
+            android:textColor="#fff"
+            android:layout_alignRight="@+id/button5"
+            android:text="comment" />
+
+        <Button
+            android:id="@+id/ok1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/t1"
+            android:layout_alignBottom="@+id/t1"
+            android:layout_marginRight="29dp"
+            android:layout_toLeftOf="@+id/t1"
+            android:background="@null"
+            android:onClick="ok1"
+            android:text="votes"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/ok2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tx2"
+            android:layout_alignBottom="@+id/tx2"
+            android:layout_marginRight="12dp"
+            android:layout_toLeftOf="@+id/t1"
+            android:background="@null"
+            android:onClick="ok2"
+            android:text="votes"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignTop="@+id/r3"
+            android:layout_marginTop="33dp"
+            android:text="comment"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/androidstudio/IKIRENGA/app/src/main/res/layout/programsofgov.xml -->
